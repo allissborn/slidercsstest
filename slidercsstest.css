@@ -882,12 +882,12 @@
   z-index: 10;
   position: absolute;
   top: 50%;
-  padding: 1.5rem 2rem;
-  color: rgba(255, 255, 255, 0.5);
+  
+  
   font-size: 3rem;
   line-height: 3rem;
   background: transparent;
-  border-radius: 1rem;
+ 
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
   -webkit-transform: translateY(-50%);
@@ -896,26 +896,19 @@
   transition: color 200ms, background 200ms;
 }
 
-.prev-arrow:hover,
-.next-arrow:hover,
-.prev-arrow:focus,
-.next-arrow:focus {
-  color: rgba(255, 255, 255, 0.9);
-  background: rgba(0, 0, 0, 0.5);
-}
 
 .prev-arrow {
   left: 0%;
+  height: 100%;
+  width: 10vw;
 }
 
-.prev-arrow:before {
-  content: "❮";
-}
+
 
 .next-arrow {
   right: 0%;
+   height: 100%;
+  width: 10vw;
 }
 
-.next-arrow:after {
-  content: "❯";
-}
+
